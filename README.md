@@ -26,9 +26,7 @@ This table below also establishes provenance (repository of origin, permalink, a
 
 ### Dependencies
 
-To build  `$projectname` you'll need to use the following tools:
-
-- autotools - Gnu Build System from Free Software Foundation ([intro](https://www.gnu.org/software/automake/manual/html_node/Autotools-Introduction.html)).
+`multisig` requires Bitcoin-Core's well proven cryptographic library [bitcoin-core/secp256k1](https://github.com/bitcoin-core/secp256k1). However, until the BIP-Schnorr functionality in [PR #558](https://github.com/bitcoin-core/secp256k1/pull/558) has been merged, we are using [BlockchainCommons/secp256k1-schnorrsig](https://github.com/BlockchainCommons/secp256k1-schnorrsig). The secp256k1 library is licensed under the [MIT License](https://github.com/bitcoin-core/secp256k1/blob/master/COPYING).
 
 ### Derived from…
 
